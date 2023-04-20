@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: table;
+    width: 100%;
+    background-image: url(img/traffic-generieren-kostenlos.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 150%;
+}
+
+.pista{
+    background-image: url(img/linha-de-chegada-de-corrida-vista-superior-kart-estrada-de-asfalto_100823-4684.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+
+#car1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+    position: absolute;
+    transform: translate(-40%);
+    background-image: url(img/kisspng-car-door-2007-dodge-caliber-honda-top-view-car-5b216d78ac6d18.3500261115289173687063.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+  
+}
+#car2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    background-image: url(img/kisspng-car-door-honda-vehicle-racing-stripe-top-view-car-5b2def1b598cb8.2054491015297369873668.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    top:55%;
+    transform: translate(-40%);
+    
+}
+.teste{
+    background-color: black;
+    height: 100vh;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+}
+
