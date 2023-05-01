@@ -64,3 +64,6 @@ body{
     background-color: rgb(12, 179, 76);
 }
 
+body {
+    overflow: hidden;
+  }
