@@ -51,11 +51,12 @@ body{
 }
 
 #linha{
-width : 5px;
-height : 100%;
-position : absolute;
-top : 0px;
-left : 93%;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    height: 100%;
+    width: 5px;
+    background-color: rgb(25, 172, 37);
 }
 
 #minhadiv{
