@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (event.key === 'd') {
       var carrinho = document.querySelector('#car1');
       var posicaoAtual = parseInt(carrinho.style.marginLeft || 0, 10);
-      carrinho.style.marginLeft = posicaoAtual + 40 + 'px';
+      carrinho.style.marginLeft = posicaoAtual + 91 + 'px';
 
       var linha = document.querySelector('#linha');
       var linhaPosicao = linha.getBoundingClientRect().left + window.pageXOffset;
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (event.key === 'l') {
       var carrinho = document.querySelector('#car2');
       var posicaoAtual = parseInt(carrinho.style.marginLeft || 0, 10);
-      carrinho.style.marginLeft = posicaoAtual + 40 + 'px';
+      carrinho.style.marginLeft = posicaoAtual + 91 + 'px';
 
       var linha = document.querySelector('#linha');
       var linhaPosicao = linha.getBoundingClientRect().left + window.pageXOffset;

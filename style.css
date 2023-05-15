@@ -53,9 +53,10 @@ body{
 #linha{
     position: absolute;
     top: 0;
-    right: 100px;
+    right: 90px;
     height: 100%;
     width: 5px;
+    background-color: blueviolet;
 }
 
 #minhadiv{
